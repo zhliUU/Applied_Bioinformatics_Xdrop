@@ -46,7 +46,7 @@ Where flags are:
     -w|--window [int] set the half window size of the sequences for realignment, default value is 50 bp
     -f|--filter [0-1] set the threshold of misaligned percentage for removing bad alignments, default value 0.8
     -o|--output prefix the output
-    no flag: Run script with default window size 50bp:length 101bp and filter Threshold (0.8)
+    no flag: Run script with default window size 50bp (length 101bp) and filter Threshold 0.8
 
 Output:
     -resultT1.txt It contains all the reads passing the threshold where 0 for reference, 1 for alternative, and * for unresolved neculotide.
