@@ -98,7 +98,7 @@ If return an error, make sure the python libraries installed to the python versi
    4        1    0.0188679  1		1
 ```
 
-## Parameters, customise
+## Parameters
 
 ```bash
 -h|--help  help function
