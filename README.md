@@ -20,9 +20,9 @@ We recommend running the analysis within docker container:
    git clone https://github.com/zhliUU/Applied_Bioinformatics_Xdrop.git
    # Change the directory to the downloaded git folder
    cd ./Applied_Bioinformatics_Xdrop
-```
-   
-3. Build docker image and run container:
+   ```
+
+3. Build docker image and start container:
 
    ```bash
    # Inside the Docker folder
