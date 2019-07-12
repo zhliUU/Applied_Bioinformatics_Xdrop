@@ -41,12 +41,12 @@ A value between 0.0 and 1.0. It removes bad data based on number of match incomp
 Example: '0.95', which means that 'number of match' should equal the length of total window size by 95%.
 
 Where flags are:
-    -h|--help  show this help text
-    -g|--graphic  Run script with addtional graphical output in PNG format
+    -h|--help  help function
+    -g|--graphic  print better table using python:tabulate library, graphical output(future development)
     -w|--window [int] set the half window size of the sequences for realignment, default value is 50 bp
-    -f|--filter [0-1] set the threshold for removing bad alignments
+    -f|--filter [0-1] set the threshold of misaligned percentage for removing bad alignments, default value 0.8
     -o|--output prefix the output
-    no flag: Run script with default value on window size (50) and filter Threshold (0.95)
+    no flag: Run script with default window size 50bp:length 101bp and filter Threshold (0.8)
 
 Output:
     -resultT1.txt It contains all the reads passing the threshold where 0 for reference, 1 for alternative, and * for unresolved neculotide.
